@@ -25,8 +25,21 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script>
+    <style>
+        .edgeLoad-EDGE-4975074 { visibility:hidden; }
+        img { display: block; }
+    </style>
+<!--Adobe Edge Runtime End-->
     </head>
     <body>
+        <div id="scene" class="edgeLoad-EDGE-4975074">
+         <img id="dame" src="img/dame.png">
+         <img id="vis" src="img/vis.png" class="edgeLoad-EDGE-4975074"/>
+         <img id="pan" src="img/pan.png" class="edgeLoad-EDGE-4975074"/>
+        <div>
+        <!--
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
@@ -34,6 +47,7 @@
                 <p class="event received">Device is Ready</p>
             </div>
         </div>
+        -->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
