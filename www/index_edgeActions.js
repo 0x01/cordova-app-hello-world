@@ -18,6 +18,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_vis}", "touchstart", function(sym, e) {
          sym.play();
          
+         mySound.play();
 
       });
       //Edge binding end
@@ -25,14 +26,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_vis}", "click", function(sym, e) {
          sym.play();
          
+         mySound.play();
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_pan}", "click", function(sym, e) {
          sym.play();
-         
-
+         mySound.play();
       });
       //Edge binding end
 
