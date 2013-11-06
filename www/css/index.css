@@ -117,6 +117,10 @@ h1 {
 div#scene img {
   position: absolute;
 }
+div#wrap {
+  transform-origin: top left;
+  transform: scale(0.3, 0.3);
+}
 
 #pan {
   top: 140px;
