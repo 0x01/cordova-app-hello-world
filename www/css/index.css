@@ -120,6 +120,8 @@ div#scene img {
 div#wrap {
   transform-origin: top left;
   transform: scale(0.3, 0.3);
+  -webkit-transform-origin: top left;
+  -webkit-transform: scale(0.3, 0.3);
 }
 
 #pan {
